@@ -1,0 +1,197 @@
+.contenedor {
+    margin-top: 1em;
+    display: grid;
+    gap: 2.5em;
+    
+  }
+  .forma {
+    position: absolute;
+    background-color: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 550px;
+    padding: 2em 4em;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0; /* Elimina el margin-top y margin-left */
+  }
+  .oculto {
+    display: none;
+  }
+
+  .comentario {
+    height: 150px;
+    width: 370px;
+  }
+  .botton {
+    margin-top: -90px;
+    margin-left: 40px;
+      height: 45px;
+      width: 150px;
+    background-color: #0062cc;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: .8em 0;
+    border: none;
+    border-radius: .5em;
+  }
+  .img {
+    position: absolute;
+    margin-left: 840px;
+    top: 50px;
+    width: 100px;
+  }
+
+  /* VENTANA EMERGENTE */
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  .container {
+    text-align: center;
+    padding: 25px;
+  }
+  .btn {
+    position: fixed;
+    margin-top: 215px;
+    margin-left: -180px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  .carita {
+    position: relative;
+    width: 250px;
+    margin-right: 20px
+  }
+  /* Estilos generales */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+.forms_grupo textarea {
+  resize: none;
+}
+
+
+
+.titulo {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.forms_grupo label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+.forms_grupo input,
+.forms_grupo textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.botton {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.8rem 0;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.botton:hover {
+  background-color: #0056b3;
+}
+
+/* Media query para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  .forma {
+    padding: 1.5em;
+  }
+}
+
+/* Estilos previos */
+
+.forms_grupo {
+  text-align: left; /* Alinear etiquetas y campos a la izquierda */
+}
+
+.botton {
+  display: block;
+  margin: 0 auto; /* Centrar horizontalmente */
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.8rem 1.5rem; /* Ajustar el padding del botón */
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.botton:hover {
+  background-color: #0056b3;
+}
+
+/* Media query para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  .forma {
+    padding: 1.5em;
+  }
+}
+
+/* ... (código CSS existente) ... */
+
+.select-container {
+  position: relative;
+}
+
+.select-container select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* ... (código CSS existente) ... */
+
+

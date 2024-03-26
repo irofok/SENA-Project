@@ -1,0 +1,29 @@
+#container {
+    min-width: 400px;
+    height: 400px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+#container2 {
+    min-width: 310px;
+    max-width: 800px;
+    height: 400px;
+    margin: 0 auto;
+  }
+
+  div.col50{
+    width: 50%;
+  }
+
+  div{
+    display: flex;
+    flex-direction:row;
+  }
+
+
+
+
+
+  

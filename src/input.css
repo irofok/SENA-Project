@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer base {
+    nav {
+      font-family: 'Archivo Black', sans-serif;
+
+    }
+  } */
+
+.btn{
+    @apply bg-third-500 px-6 py-2 rounded-md font-lexend text-xl hover:bg-second-600 active:bg-second-500
+}
+
+.tittle{
+   @apply text-3xl md:text-4xl font-bold leading-snug;
+}
+
+html{
+  scroll-behavior: smooth;
+}
